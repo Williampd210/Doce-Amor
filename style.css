@@ -5,7 +5,7 @@ body {
     gap:16px;
 }
 @media screen and (max-width: 900px) {
-    .card-torta-palito {
+    .visualizacao {
         flex-wrap: wrap;
     }
     .subtitulo {
@@ -13,7 +13,7 @@ body {
     }
 }
 @media screen and (max-width: 480px) {
-    .card-torta-palito {
+    .visualizacao {
         flex-wrap: wrap;
     }
     .subtitulo {
@@ -55,17 +55,17 @@ body {
     border-radius: 15px;
     padding-left: 15px;
  }
-  .card-torta-palito {
+  #card-torta-palito {
     display: flex;
     gap:16px;
     margin-top: 1px;
   }
-  .vitrine {
+  #vitrine {
     display: flex;
     gap:16px;
     margin-top: 1px;
 }
-.copo {
+#copo {
     display: flex;
     gap:16px;
     margin-top: 16px;
@@ -116,7 +116,7 @@ body {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -126,7 +126,7 @@ body {
     z-index: 9999999;
 }
 
-.modal {
+#modal {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -164,7 +164,7 @@ body {
     }
 }
 
-.abrir .modal {
+.abrir #modal {
     animation: abrirmodal 0.5s;
 }
 
@@ -172,7 +172,7 @@ body {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -182,7 +182,7 @@ body {
     z-index: 999;
 }
 
-.modal1 {
+#modal1 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -220,7 +220,7 @@ body {
     }
 }
 
-.abrir1 .modal1 {
+.abrir1 #modal1 {
     animation: abrirmodal 0.5s;
 }
 
@@ -228,7 +228,7 @@ body {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -238,7 +238,7 @@ body {
     z-index: 999;
 }
 
-.modal2 {
+#modal2 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -276,14 +276,14 @@ body {
     }
 }
 
-.abrir2 .modal2 {
+.abrir2 #modal2 {
     animation: abrirmodal 0.5s;
 }
 .janela-modal3 {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -293,7 +293,7 @@ body {
     z-index: 999;
 }
 
-.modal3 {
+#modal3 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -331,14 +331,14 @@ body {
     }
 }
 
-.abrir3 .modal3 {
+.abrir3 #modal3 {
     animation: abrirmodal 0.5s;
 }
 .janela-modal4 {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -348,7 +348,7 @@ body {
     z-index: 999;
 }
 
-.modal4 {
+#modal4 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -386,14 +386,14 @@ body {
     }
 }
 
-.abrir4 .modal4 {
+.abrir4 #modal4 {
     animation: abrirmodal 0.5s;
 }
 .janela-modal5 {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -403,7 +403,7 @@ body {
     z-index: 999;
 }
 
-.modal5 {
+#modal5 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -441,14 +441,14 @@ body {
     }
 }
 
-.abrir5 .modal5 {
+.abrir5 #modal5 {
     animation: abrirmodal 0.5s;
 }
 .janela-modal6 {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -458,7 +458,7 @@ body {
     z-index: 999;
 }
 
-.modal6 {
+#modal6 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -496,7 +496,7 @@ body {
     }
 }
 
-.abrir6 .modal6 {
+.abrir6 #modal6 {
     animation: abrirmodal 0.5s;
 }
 
@@ -504,7 +504,7 @@ body {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -514,7 +514,7 @@ body {
     z-index: 999;
 }
 
-.modal7 {
+#modal7 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -552,7 +552,7 @@ body {
     }
 }
 
-.abrir7 .modal7 {
+.abrir7 #modal7 {
     animation: abrirmodal 0.5s;
 }
 
@@ -560,7 +560,7 @@ body {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -570,7 +570,7 @@ body {
     z-index: 999;
 }
 
-.modal8 {
+#modal8 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -608,14 +608,14 @@ body {
     }
 }
 
-.abrir8 .modal8 {
+.abrir8 #modal8 {
     animation: abrirmodal 0.5s;
 }
 .janela-modal9 {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -625,7 +625,7 @@ body {
     z-index: 999;
 }
 
-.modal9 {
+#modal9 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -663,14 +663,14 @@ body {
     }
 }
 
-.abrir9 .modal9 {
+.abrir9 #modal9 {
     animation: abrirmodal 0.5s;
 }
 .janela-modal10 {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -680,7 +680,7 @@ body {
     z-index: 999;
 }
 
-.modal10 {
+#modal10 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -718,14 +718,14 @@ body {
     }
 }
 
-.abrir10 .modal10 {
+.abrir10 #modal10 {
     animation: abrirmodal 0.5s;
 }
 .janela-modal11 {
     width: 100vw;
     height: 100vw;
     position: relative;
-    top: -400px;
+    align-items: center;
     left: 0;
     background-color: rgba(0, 0, 0, 0.34);
     color: black;
@@ -735,7 +735,7 @@ body {
     z-index: 999;
 }
 
-.modal11 {
+#modal11 {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
@@ -773,6 +773,6 @@ body {
     }
 }
 
-.abrir11 .modal11 {
+.abrir11 #modal11 {
     animation: abrirmodal 0.5s;
 }
