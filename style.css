@@ -41,15 +41,6 @@ body {
     width: var(--screen-width);
     height: var(--screen-height);
 }
-.pop-up {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: var(--screen-width);
-    height: var(--screen-height);
-}
 .header {
     display: flex;
     align-items: center;
@@ -139,14 +130,13 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 9999999;
 }
 
 #modal {
     width: 60%;
     min-width: 450px;
     min-height: 200px;
-    background-color: rgba(255, 255, 255, 0.521);
+    
     backdrop-filter: blur(10px);
     padding: 50px;
     border-radius: 20px;
@@ -195,7 +185,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal1 {
@@ -251,7 +240,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal2 {
@@ -306,7 +294,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal3 {
@@ -361,7 +348,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal4 {
@@ -416,7 +402,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal5 {
@@ -471,7 +456,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal6 {
@@ -527,7 +511,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal7 {
@@ -583,7 +566,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal8 {
@@ -638,7 +620,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal9 {
@@ -693,7 +674,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal10 {
@@ -748,7 +728,6 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 999;
 }
 
 #modal11 {
