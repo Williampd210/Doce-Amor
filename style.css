@@ -71,12 +71,12 @@ body {
     font-size: 30px;
     border-radius: 15px;
     padding-left: 15px;
- }
+}
   #card-torta-palito {
     display: flex;
     gap:16px;
     margin-top: 1px;
-  }
+}
   #vitrine {
     display: flex;
     gap:16px;
@@ -87,7 +87,28 @@ body {
     gap:16px;
     margin-top: 16px;
 }
-a {
+#menu_horizontal {
+    list-style: none;
+    padding: 0;
+    background-color: pink;
+    border-radius: 15px;
+}
+#menu_horizontal li {
+    display: inline;
+}
+#menu_horizontal li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    font-family: sans-serif;
+    transition: background .3s;
+}
+#menu_horizontal li a:hover{
+    color: pink;
+    background-color: #fff;
+}
+.pop-up a{
     background-color: #25D366;
     height: 30px;
     border: none;
@@ -99,9 +120,32 @@ a {
     border-radius: 4px;
     text-decoration: none;
 }
-a:hover {
+.pop-up a:hover {
     background-color: #fff;
     color: #25D366;
+}
+.card_contato {
+    display: flex;
+    gap:16px;
+    margin-top: 1px;
+}
+.card a {
+    background-color:#137de8;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none; 
+    text-align: center;
+    text-justify: center;
+}
+.card a:hover {
+    background-color:#fff;
+    color:#137de8; 
 }
 .card {
     background-color: #fff;
@@ -156,7 +200,6 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
-
 #modal {
     width: 60%;
     min-width: 300px;
@@ -179,11 +222,9 @@ a:hover {
     font-size: 19px;
     cursor: pointer;
 }
-
 .janela-modal.abrir {
     display: flex;
 }
-
 @keyframes abrirmodal {
     from{
         opacity: 0;
@@ -194,11 +235,9 @@ a:hover {
         transform: translate3d(0,0,0);
     }
 }
-
 .abrir #modal {
     animation: abrirmodal 0.5s;
 }
-
 .janela-modal1 {
     width: var(--screen-width);
     height: var(--screen-height);
@@ -211,7 +250,6 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
-
 #modal1 {
     width: 60%;
     min-width: 300px;
@@ -234,11 +272,9 @@ a:hover {
     font-size: 19px;
     cursor: pointer;
 }
-
 .janela-modal1.abrir1 {
     display: flex;
 }
-
 @keyframes abrirmodal1 {
     from{
         opacity: 0;
@@ -249,11 +285,9 @@ a:hover {
         transform: translate3d(0,0,0);
     }
 }
-
 .abrir1 #modal1 {
     animation: abrirmodal 0.5s;
 }
-
 .janela-modal2 {
     width: var(--screen-width);
     height: var(--screen-height);
@@ -266,7 +300,6 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
-
 #modal2 {
     width: 60%;
     min-width: 300px;
@@ -289,11 +322,9 @@ a:hover {
     font-size: 19px;
     cursor: pointer;
 }
-
 .janela-modal2.abrir2 {
     display: flex;
 }
-
 @keyframes abrirmodal2 {
     from{
         opacity: 0;
@@ -304,7 +335,6 @@ a:hover {
         transform: translate3d(0,0,0);
     }
 }
-
 .abrir2 #modal2 {
     animation: abrirmodal 0.5s;
 }
