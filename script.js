@@ -1,3 +1,10 @@
+window.onload = function() {
+    var dimensionsDiv = document.getElementById('dimensions');
+    dimensionsDiv.innerHTML = 'Width: ' + window.innerWidth + 'px, Height: ' + window.innerHeight + 'px';
+    // Atualiza as variáveis CSS com as dimensões da tela
+    document.documentElement.style.setProperty('--screen-width', window.innerWidth + 'px');
+    document.documentElement.style.setProperty('--screen-height', window.innerHeight + 'px');
+}
 function abrirModal (){
     const modal = document.getElementById('janela-modal')
     modal.classList.add('abrir')

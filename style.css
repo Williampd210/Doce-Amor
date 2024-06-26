@@ -3,7 +3,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center; /* Para centralizar horizontalmente */
+    text-align: center;
   }
 #dimensions {
     width: var(--screen-width);
@@ -27,13 +27,23 @@ body {
     .subtitulo {
         padding-left: 100vw;
     }
+    .visualizacao_modal {
+        width: 60%;
+        min-width: 300px;
+        min-height: 200px;
+    }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     .visualizacao {
         flex-wrap: wrap;
     }
     .subtitulo {
         padding-left: 100vw;
+    }
+    .visualizacao_modal {
+        width: 60%;
+        min-width: 300px;
+        min-height: 200px;
     }
 }
 .corpo {
@@ -77,33 +87,49 @@ body {
     gap:16px;
     margin-top: 16px;
 }
-  .card {
+a {
+    background-color: #25D366;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #fff;
+    color: #25D366;
+}
+.card {
     background-color: #fff;
     width: 180px;
     height: 260px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
-  }
-  .card img {
+}
+.card img {
     width: 100%;
     height: 130px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-  }
-  .card div {
+}
+.card div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4px;
     height: 50%;
-  }
-  .card h1 {
+}
+.card h1 {
     font-size: 1.2rem;
     text-align: center;
-  }
+}
 
-  .card button {
+.card button {
     background-color: #2192FF;
     height: 30px;
     border: none;
@@ -113,12 +139,11 @@ body {
     font-size: 1rem;
     font-weight: bold;
     border-radius: 4px;
-  }
-  .card button:hover {
+}
+.card button:hover {
     background-color: #137de8;
     cursor: pointer;
-  }
-
+}
 .janela-modal {
     width: var(--screen-width);
     height: var(--screen-height);
@@ -134,7 +159,7 @@ body {
 
 #modal {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -189,7 +214,7 @@ body {
 
 #modal1 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -244,7 +269,7 @@ body {
 
 #modal2 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -298,7 +323,7 @@ body {
 
 #modal3 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -352,7 +377,7 @@ body {
 
 #modal4 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -406,7 +431,7 @@ body {
 
 #modal5 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -460,7 +485,7 @@ body {
 
 #modal6 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -515,7 +540,7 @@ body {
 
 #modal7 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -570,7 +595,7 @@ body {
 
 #modal8 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -624,7 +649,7 @@ body {
 
 #modal9 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -678,7 +703,7 @@ body {
 
 #modal10 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
@@ -732,7 +757,7 @@ body {
 
 #modal11 {
     width: 60%;
-    min-width: 450px;
+    min-width: 300px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
