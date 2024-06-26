@@ -28,12 +28,13 @@ body {
         padding-left: 100vw;
     }
     .visualizacao_modal {
-        width: 60%;
-        min-width: 300px;
-        min-height: 200px;
+        width: 40%;
+    }
+    .card_contato {
+        flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
     .visualizacao {
         flex-wrap: wrap;
     }
@@ -41,9 +42,7 @@ body {
         padding-left: 100vw;
     }
     .visualizacao_modal {
-        width: 60%;
-        min-width: 300px;
-        min-height: 200px;
+        width: 40%;
     }
 }
 .corpo {
@@ -95,6 +94,7 @@ body {
 }
 #menu_horizontal li {
     display: inline;
+    font-size: 20px;
 }
 #menu_horizontal li a{
     text-decoration: none;
@@ -202,8 +202,6 @@ body {
 }
 #modal {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -252,8 +250,6 @@ body {
 }
 #modal1 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -302,8 +298,6 @@ body {
 }
 #modal2 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -353,8 +347,6 @@ body {
 
 #modal3 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -407,8 +399,6 @@ body {
 
 #modal4 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -461,8 +451,6 @@ body {
 
 #modal5 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -515,8 +503,6 @@ body {
 
 #modal6 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -570,8 +556,6 @@ body {
 
 #modal7 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -625,8 +609,6 @@ body {
 
 #modal8 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -679,8 +661,6 @@ body {
 
 #modal9 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -733,8 +713,6 @@ body {
 
 #modal10 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
@@ -787,8 +765,6 @@ body {
 
 #modal11 {
     width: 60%;
-    min-width: 300px;
-    min-height: 200px;
     background-color: rgba(255, 255, 255, 0.521);
     backdrop-filter: blur(10px);
     padding: 50px;
