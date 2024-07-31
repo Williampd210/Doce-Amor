@@ -223,16 +223,7 @@ body {
 .janela-modal.abrir {
     display: flex;
 }
-@keyframes abrirmodal {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
-}
+
 .abrir #modal {
     animation: abrirmodal 0.5s;
 }
@@ -271,16 +262,7 @@ body {
 .janela-modal1.abrir1 {
     display: flex;
 }
-@keyframes abrirmodal1 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
-}
+
 .abrir1 #modal1 {
     animation: abrirmodal 0.5s;
 }
@@ -319,16 +301,7 @@ body {
 .janela-modal2.abrir2 {
     display: flex;
 }
-@keyframes abrirmodal2 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
-}
+
 .abrir2 #modal2 {
     animation: abrirmodal 0.5s;
 }
@@ -368,17 +341,6 @@ body {
 
 .janela-modal3.abrir3 {
     display: flex;
-}
-
-@keyframes abrirmodal3 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
 }
 
 .abrir3 #modal3 {
@@ -422,17 +384,6 @@ body {
     display: flex;
 }
 
-@keyframes abrirmodal4 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
-}
-
 .abrir4 #modal4 {
     animation: abrirmodal 0.5s;
 }
@@ -474,17 +425,6 @@ body {
     display: flex;
 }
 
-@keyframes abrirmodal5 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
-}
-
 .abrir5 #modal5 {
     animation: abrirmodal 0.5s;
 }
@@ -524,17 +464,6 @@ body {
 
 .janela-modal6.abrir6 {
     display: flex;
-}
-
-@keyframes abrirmodal6 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
 }
 
 .abrir6 #modal6 {
@@ -579,17 +508,6 @@ body {
     display: flex;
 }
 
-@keyframes abrirmodal7 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
-}
-
 .abrir7 #modal7 {
     animation: abrirmodal 0.5s;
 }
@@ -630,17 +548,6 @@ body {
 
 .janela-modal8.abrir8 {
     display: flex;
-}
-
-@keyframes abrirmodal8 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
 }
 
 .abrir8 #modal8 {
@@ -684,17 +591,6 @@ body {
     display: flex;
 }
 
-@keyframes abrirmodal9 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
-}
-
 .abrir9 #modal9 {
     animation: abrirmodal 0.5s;
 }
@@ -736,17 +632,6 @@ body {
     display: flex;
 }
 
-@keyframes abrirmodal10 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
-}
-
 .abrir10 #modal10 {
     animation: abrirmodal 0.5s;
 }
@@ -786,17 +671,6 @@ body {
 
 .janela-modal11.abrir11 {
     display: flex;
-}
-
-@keyframes abrirmodal11 {
-    from{
-        opacity: 0;
-        transform: translate3d(0, -20px, -5px);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
 }
 
 .abrir11 #modal11 {
